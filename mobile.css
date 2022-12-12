@@ -35,6 +35,9 @@ border: 0;
 width: fit-content;
 margin-left: 50px;
 }
+.col3{
+          margin-left: 25px;
+}
 .pa{
           font-size: larger;
 }

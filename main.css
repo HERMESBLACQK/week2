@@ -1,6 +1,5 @@
 
 body{
-          font: ;
           margin: 0;
           padding: 0;
 }
@@ -24,7 +23,6 @@ body{
 .container{
           display: flex;
           justify-content: center;
-          /* border: 3px solid red; */
 }
 .sub{
           display: flex;
@@ -62,24 +60,43 @@ body{
           border: 3px solid black;
           display: flex;
           box-sizing: border-box;
-          margin: 60px 30px 100px 30px;
+          margin: 60px 30px 60px 30px;
           align-items: center;
+          justify-content: center;
           border-radius: 40px;
           flex-wrap: wrap;
+          
+
 }
 .row{
           display: flex;
           margin: 20px;
           flex-basis: 100%;
+          align-items: center;
+          justify-content: center;
+
           
 }.col3{
           padding: 50px 40px;
           flex-basis: 100%;
+          width: auto;
           min-width: 300px;
+          margin-left: 30px;
+
+}
+.col{
+          border-left: 3px solid black;
+          padding: 50px 40px;
+          min-width: 300px;
+          flex-basis: 100%;
+          width: auto;
+          margin-right: 30px;
+
+
 }
 .col3 h3{
           font-weight: 700;
-          font-size: 28px;
+          font-size: 58px;
           line-height: 24px;
 }
 .col3 button{
@@ -91,14 +108,15 @@ body{
            margin-bottom: 30px;
            cursor: pointer;
 }
+
 .col3 pa{
           
           font-weight: 700;
-          font-size: larger;
+          font-size: x-large;
 }
 .col3 pa{
           font-weight: 400;
-          font-size: 16px;
+          font-size: 26px;
 }
 .col3 span{
           font-weight: 400;
@@ -108,26 +126,20 @@ body{
 .inside-box1{
           margin-top: 68px;
  }
-.col{
-          border-left: 3px solid black;
-          padding: 50px 40px;
-          /* margin: 20px; */
-          flex-basis: 100%;
-          min-width: 300px;
-}
+
  h3{
           font-weight: 700;
-          font-size: 28px;
+          font-size: 58px;
           line-height: 24px;
 }
  p{
           font-weight: 700;
-          font-size: larger;
+          font-size: x-large;
           
 }
 .pa{
           font-weight: 400;
-          font-size: 16px;
+          font-size: 26px;
 }
 .col span{
           font-weight: 400;

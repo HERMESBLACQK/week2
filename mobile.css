@@ -20,6 +20,7 @@
           flex-direction: column;
           width: 100%;
           justify-content: center;
+          align-items: center;
 
 }
 .main{
@@ -27,14 +28,15 @@
           padding: 0;
           justify-content: center;
           margin: 40px auto;
+          align-items: center;
 }
 .col, .col3{
 border: 0;
 width: fit-content;
-margin-left: 15px;
+margin-left: 50px;
 }
 .pa{
-          font-size: large;
+          font-size: larger;
 }
 .col h2{
 font-size: large;

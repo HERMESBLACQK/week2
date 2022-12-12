@@ -1,0 +1,156 @@
+
+body{
+          font: ;
+          margin: 0;
+          padding: 0;
+}
+
+
+.banner{
+          width: 100%;
+          text-align: center;
+}
+.head h2{
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 44px;
+          font-style: normal;
+}
+.text h1{
+          font-weight: 400;
+          line-height: 58px ;
+          font-size: 48px;
+}
+.container{
+          display: flex;
+          justify-content: center;
+          /* border: 3px solid red; */
+}
+.sub{
+          display: flex;
+          flex-direction: row;
+          width: fit-content;
+          justify-content: center;
+          align-items: flex-start;
+          background: lightgrey;
+          border-radius: 15px;
+          padding: 10px 10px;
+          
+}
+.btn2{
+          padding: 15px 30px;
+          font-size: larger;
+          background: white;
+          border-radius: 20px;
+          font-weight: 700;
+          border: white;
+          cursor: pointer;
+}
+.btn3{
+          padding: 15px 30px;
+          font-size: larger;
+          background: lightgrey;
+          border: lightgrey;
+          font-weight: 700;
+          cursor: pointer;
+          border-radius: 20px;
+
+}
+
+
+.main{
+          border: 3px solid black;
+          display: flex;
+          box-sizing: border-box;
+          margin: 60px 30px 100px 30px;
+          align-items: center;
+          border-radius: 40px;
+          flex-wrap: wrap;
+}
+.row{
+          display: flex;
+          margin: 20px;
+          flex-basis: 100%;
+          
+}.col3{
+          padding: 50px 40px;
+          flex-basis: 100%;
+          min-width: 300px;
+}
+.col3 h3{
+          font-weight: 700;
+          font-size: 28px;
+          line-height: 24px;
+}
+.col3 button{
+          padding: 15px 50px;
+          background: #3D3737;
+           color: white;
+           text-align: right;
+           margin-top: 50px;
+           margin-bottom: 30px;
+           cursor: pointer;
+}
+.col3 pa{
+          
+          font-weight: 700;
+          font-size: larger;
+}
+.col3 pa{
+          font-weight: 400;
+          font-size: 16px;
+}
+.col3 span{
+          font-weight: 400;
+          font-size: 64px;
+}
+
+.inside-box1{
+          margin-top: 68px;
+ }
+.col{
+          border-left: 3px solid black;
+          padding: 50px 40px;
+          /* margin: 20px; */
+          flex-basis: 100%;
+          min-width: 300px;
+}
+ h3{
+          font-weight: 700;
+          font-size: 28px;
+          line-height: 24px;
+}
+ p{
+          font-weight: 700;
+          font-size: larger;
+          
+}
+.pa{
+          font-weight: 400;
+          font-size: 16px;
+}
+.col span{
+          font-weight: 400;
+          font-size: 64px;
+}
+.col button{
+          padding: 15px 50px;
+         background: #3D3737;
+          color: white;
+          text-align: right;
+          margin-top: 30px;
+          margin-bottom: 30px;
+          cursor: pointer;
+}
+.col button:hover{
+          background: white;
+          color: black;
+          transition: 0.7s ease-in-out;
+}
+ 
+.col3 button:hover{
+          background: white;
+          color: black;
+          transition: 0.7s ease-in-out;
+}
+ 

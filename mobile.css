@@ -1,0 +1,43 @@
+@media only screen and (max-width: 850px){
+
+.sub{
+          /* margin: 0 20px; */
+          flex-direction: row;
+          align-items: center;
+          /* padding: 10px 10px; */
+}
+.btn2{
+          font-size: large;
+          padding: 15px 20px;
+}
+.btn3{
+          font-size: large;
+          padding: 10px;
+          margin-left: 5px;
+          
+}
+          .row{
+          flex-direction: column;
+          width: 100%;
+          justify-content: center;
+
+}
+.main{
+          width: 90%;
+          padding: 0;
+          justify-content: center;
+          margin: 40px auto;
+}
+.col, .col3{
+border: 0;
+width: fit-content;
+margin-left: 15px;
+}
+.pa{
+          font-size: large;
+}
+.col h2{
+font-size: large;
+}
+
+}

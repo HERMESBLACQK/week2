@@ -1,3 +1,4 @@
 # week2
 internship project
-![Screenshot (17)](https://user-images.githubusercontent.com/117166437/208102832-3dfc5b22-499e-4dcc-9904-ebff8b8710e2.png)
+
+![Screenshot (19)](https://user-images.githubusercontent.com/117166437/208104474-50fbfba7-f305-4ab2-8348-873ba0d9ca6a.png)
